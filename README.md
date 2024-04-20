@@ -15,6 +15,8 @@ Decision trees are simple models that make predictions based on a series of deci
 
 ## Model Overview
 This project aims to predict whether a breast mass is benign or malignant using the Breast Cancer Wisconsin (Diagnostic) Dataset. We are using a decision tree classifier as a weak machine learning model for this task.
+-Initial or base reported accuracy is :
+Accuracy of the decision tree classifier: 0.9473684210526315
 
 ## Model Specifications
 - Model: Decision Tree Classifier
