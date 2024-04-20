@@ -28,6 +28,37 @@ Accuracy of the decision tree classifier: 0.9473684210526315
 ## Initial Accuracy
 The initial accuracy of the decision tree classifier on the test set is approximately 94.74%.
 
+## Further Improvenent 
+One popular ensemble method for decision trees is Random Forest, by using ensemblers , we 
+have increased the accuracy of the model by 1.75%.
+
+
+## Hyperparameters Tuned:
+
+n_estimators: Number of trees in the forest.
+max_depth: Maximum depth of the trees.
+min_samples_split: Minimum number of samples required to split an internal node.
+min_samples_leaf: Minimum number of samples required to be at a leaf node.
+
+##Best Hyperparameters:
+
+max_depth: 7
+min_samples_leaf: 2
+min_samples_split: 5
+n_estimators: 100
+
+## Accuracy of the Best Random Forest Classifier:
+
+0.9649 (96.49%)
+
+## Feature Scaling
+result:Best hyperparameters: {'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+Accuracy of the best Random Forest classifier with feature scaling: 0.9649122807017544
+
+conclusion:
+Breast Cancer Wisconsin (Diagnostic) Dataset may not benefit significantly from feature scaling in the context of a Random Forest classifier.
+
+
 ## Project Structure
 - `data`: Contains the dataset files.
 - `code`: Contains the Python code for data preprocessing, model training, and evaluation.
